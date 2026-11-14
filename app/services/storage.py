@@ -6,7 +6,6 @@ from supabase import create_client
 load_dotenv(".env")
 
 SUPABASE_PROJECT_URL = os.environ["SUPABASE_PROJECT_URL"]
-SUPABASE_PUBLIC_KEY = os.environ["SUPABASE_PUBLIC_KEY"]
 SUPABASE_SECRET_KEY = os.environ["SUPABASE_SECRET_KEY"] 
 SUPABASE_STORAGE_BUCKET = os.environ["SUPABASE_STORAGE_BUCKET"]
 
